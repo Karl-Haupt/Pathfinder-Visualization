@@ -380,7 +380,7 @@ public class Assessor extends JPanel implements ActionListener, MouseListener, K
     //Fills all the neighbouring nodes that still need to be searched to green
     private void drawOpenList(Graphics g) {
         PriorityQueue<Node> openList = path.getOpen();
-        g.setColor(new Color(80, 250, 123));
+        g.setColor(new Color(0,191,255));
         for(Node e : openList) {
             g.fillRect(e.getX() + 1, e.getY() + 1, NODE_SIZE - 2, NODE_SIZE - 2);
         }
@@ -389,7 +389,7 @@ public class Assessor extends JPanel implements ActionListener, MouseListener, K
     //Fills all the nodes that are in the final path to purple
     private void drawFinalPath(Graphics g) {
         ArrayList<Node> finalPath = path.getFinalPath();
-        g.setColor(new Color(189, 147, 249));
+        g.setColor(new Color(255,255,0));
         for(int i = 0; i < finalPath.size(); i++) {
             g.fillRect(finalPath.get(i).getX() + 1, finalPath.get(i).getY() + 1,
                     NODE_SIZE - 2, NODE_SIZE - 2);
@@ -399,7 +399,7 @@ public class Assessor extends JPanel implements ActionListener, MouseListener, K
     //Fills the start node to blue
     private void fillStartNode(Graphics g) {
         if(start != null) {
-            g.setColor(new Color(139, 233, 253));
+            g.setColor(new Color(0,255,0));
             g.fillRect(start.getX() + 1, start.getY() + 1, NODE_SIZE - 2, NODE_SIZE -
                     2);
         }

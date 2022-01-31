@@ -20,9 +20,9 @@ public class Controller extends JPanel implements ActionListener, ItemListener {
     private Pathfinder path;
     private boolean algoType = false;
 
-    //alogrithm time
+    //algorithm time
 
-    //Pass pathfinder into the constructuer + process the pathfinder
+    //Pass pathfinder into the constructor + process the pathfinder
     public Controller(Pathfinder path, Assessor assessor) {
         this.path = path;
         this.assessor = assessor;

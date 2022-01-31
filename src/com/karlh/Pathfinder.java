@@ -2,7 +2,7 @@ package com.karlh;
 
 /*
 * Pathfinder.java -> is the implementation of the A* algorithm &
-* Djisktra's algorithm
+* Dijkstra's algorithm
 * 2021/09/16
 * */
 
@@ -354,7 +354,7 @@ public class Pathfinder {
         System.out.println("Size of Path: " + finalPath.size() + "\n");
         JOptionPane.showMessageDialog(null,
                 "Total cost of Path: " + end.getParent().getG() + "\n" +
-                        "Size of Open(Green): " + open.size() + "\n" +
+                        "Size of Open(Blue): " + open.size() + "\n" +
                         "Size of Closed(Red): " + closed.size() + "\n" +
                         "Size of the path: " + finalPath.size() + "\n");
     }
