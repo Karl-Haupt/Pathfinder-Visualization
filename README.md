@@ -4,7 +4,8 @@ The Pathfinder Visualization is created using Java. The application shows user t
 The algorithms used in the pathfinder, are similiar to algorithms thats are used for maze-generations. 
 
 ## Visuals
-	![Pathfinder Visualizer using the A* Search Algorithm](https://user-images.githubusercontent.com/69191757/151774528-eb5b649f-9198-470b-92ec-a9056ff4f9a8.mp4)
+<!-- 	![Pathfinder Visualizer using the A* Search Algorithm](https://user-images.githubusercontent.com/69191757/151774528-eb5b649f-9198-470b-92ec-a9056ff4f9a8.mp4) -->
+![PathFinder Visualization049](https://user-images.githubusercontent.com/69191757/151775698-fedf1768-ed75-4a22-afce-71ef92e977b8.gif)
 
 ## Installation
 1. Download/Clone the repository onto your computer and run it using an Java compiler
