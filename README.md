@@ -18,4 +18,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ### Credits
 Resources ->
 *       Devon Crawford (Idea) - https://www.youtube.com/watch?v=1-YPj5Vt0oQ
-*       George - Senior Developer at Sage Pastel
+<!-- *       George - Senior Developer at Sage Pastel -->
